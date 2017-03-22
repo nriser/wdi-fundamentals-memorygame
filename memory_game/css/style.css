@@ -1,6 +1,7 @@
 body {
     text-align: center;
     margin: 0;
+    font-size: 18px;
 }
 h1 {
 	font-family: "Raleway", sans-serif;
@@ -32,7 +33,6 @@ a {
 p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
-	font-size: 18px;
 }
 header {
 	background-color: #f15b31;

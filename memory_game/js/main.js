@@ -53,6 +53,7 @@ var flipCard = function() {
 
 	if (cardsInPlay.length === 2) {
 		checkForMatch();
+		cardsInPlay = [];
 	}
 };
 
@@ -74,10 +75,6 @@ var reset = function() {
 	for (var i = 0; i < images.length; i++) {
 		images[i].removeAttribute("src");
 		images[i].setAttribute("src", "images/back.png");
-	}
-	// empty out cardsInPlay array
-	for (var i = 0; i = cardsInPlay.length; i++) {
-		cardsInPlay.pop();
 	}
 };
 
