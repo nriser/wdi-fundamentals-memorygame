@@ -57,6 +57,25 @@ main {
 img {
 	margin: 40px 8px;
 }
+button {
+	border-radius: 5px;
+	color: white;
+	background-color: #f15b31;
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 7px 20px;
+}
+.score p {
+	color: #f15b31;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: 900;
+	margin: 0;
+}
 footer {
 	text-transform: uppercase;
 	padding: 0 20px;
